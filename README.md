@@ -1,2 +1,7 @@
 # filebeat-sidecar-implementation
-Configuration files required to implement filebeat as a sidecar, Blog link: /*Update-Link*/
+You can find the configMap, Deployment and Service objects inside the deployment.yaml file
+
+To apply the deployment file simply use
+```sh
+kubectl apply -f deployment.yaml
+```
